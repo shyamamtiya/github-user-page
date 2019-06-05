@@ -1,0 +1,89 @@
+.user-info{
+    width: 25%;
+}
+
+.button{
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: #eff3f6;
+    margin-bottom: 16px !important;
+    border: 1px solid rgba(27,31,35,.2);
+    border-radius: .25em;
+    line-height: 20px;
+    padding: 6px 12px;
+    font-weight: 600;
+}
+img {
+    width: 100%;
+    height: auto;
+    min-width: 160px;
+    border: 1px solid rgba(27,31,35,.2);
+}
+
+.user-fullname {
+    display: block;
+    line-height: 30px;
+}
+
+.user-username {
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    color: #666;
+}
+
+.user-details{
+    border-top: 1px #e1e4e8 solid;
+    font-size: 14px;
+}
+.user-details>ul{
+    padding-inline-start: 0 !important;
+}
+
+.user-details>ul>li {
+    padding-top: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.user-details>ul>li>svg {
+    float: left;
+    margin-right: 5px;
+}
+
+li span{
+    color: #0366d6;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .user-info{
+        width: 100%;
+    }
+    img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+    } 
+    .button{
+        width: calc(100% - 24px);
+    }
+    .user-fullname ,.user-username{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .user-info{
+        width: 100%;
+    }
+
+    .button{
+        width: calc(100% - 24px);
+    }
+}

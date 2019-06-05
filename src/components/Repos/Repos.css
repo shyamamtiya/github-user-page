@@ -1,0 +1,18 @@
+.mr20{
+    margin-right:20px;
+}
+.repos{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e1e4e8!important;
+}
+.repos h4{
+    margin-block-start: 10px !important;
+    margin-block-end: 10px !important;
+}
+.update{
+    padding-bottom: 20px;
+}
+.repos span{
+    font-size: 12px;
+}

@@ -1,0 +1,15 @@
+.tab-content{
+    border-bottom: 2px solid transparent;
+    color: #586069;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-right: 16px;
+    padding: 16px 8px;
+    text-align: center;
+}
+.tab-content:hover{
+    border-bottom-color: #d1d5da;
+    color: #24292e;
+    text-decoration: none;
+    transition: .2s ease;
+}
